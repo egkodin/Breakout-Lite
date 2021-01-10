@@ -1,0 +1,22 @@
+#base
+GAME_NAME = 'Breakout Lite'
+WIDTH = 500
+HEIGHT = 500
+#ball
+BALL_SIZE = 10, 10, 25, 25
+BALL_COORDINATES = 250, 100
+COLOR_BALL = 'pink'
+COLOR_BALL_2 = 'green'
+
+# paddle
+PADDLE_SIZE = 0, 0, 100, 10
+PADDLE_COLOR = 'blue'
+# score
+COLOR_SCORE = 'black'
+COLOR_FONT_TEXT_SCORE = ('Courier', 50)
+PLACEMENT_SCORE = 250, 30
+# game over
+PLACEMENT_GAME_OVER_TEXT = 250, 120
+GAME_OVER_TEXT = 'Game over :('
+COLOR_FONT_TEXT_GAME_OVER = ('Courier', 30)
+COLOR_GAME_OVER_TEXT = 'red'
